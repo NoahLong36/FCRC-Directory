@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="directory-icon.svg">
+  <title>Pool Staff Directory</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Pool Staff Directory</h1>
+    <div class="search-filter">
+      <input type="text" id="search" placeholder="Search by name, school, or position..." />
+      <select id="positionFilter">
+        <option value="">All Positions</option>
+        <option value="Manager">Manager</option>
+        <option value="Coach">Coach</option>
+      </select>
+    </div>
+  </header>
+
+  <main id="staff-directory"></main>
+
+  <script src="script.js"></script>
+</body>
+</html>
